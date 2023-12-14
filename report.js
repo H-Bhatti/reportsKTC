@@ -51,3 +51,9 @@ const report = []
 console.log(report)
 console.log("start");
 getData();
+
+// just run the joinArray function and et the reports in CSV
+const button = document.getElementById("Button");
+button.onclick = ()=>{
+    joinArray (report)
+};
